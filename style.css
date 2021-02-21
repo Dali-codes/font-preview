@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
+    font-size: 1.7em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 30px auto;
+}
+
+li {
+    margin: 10px auto;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 10%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;;
+    text-align: left;
+    display: block;
+}
+
+.smallerfont {
+    font-size: .9em;
+}
+
+#text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+
+#font1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#font1::before {
+    content: "Oswald:";
+    margin-right: 50px;
+}
+
+#font2 {
+    font-family: 'Roboto', sans-serif;;
+}
+
+#font2::before {
+    content: "Roboto:";
+    margin-right: 45px;
+}
+
+#font3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#font3::before {
+    content: "Montserrat:";
+    margin-right: 8px;
+}
+
+#font4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#font4::before {
+    content: "Raleway:";
+    margin-right: 35px;
+}
+
+#font5 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#font5::before {
+    content: "Quicksand:";
+    margin-right: 20px;
+}
+
+#font6 {
+    font-family: 'Arvo', serif;
+}
+
+#font6::before {
+    content: "Arvo:";
+    margin-right: 60px;
+}
+
+#font7 {
+    font-family: 'Zilla Slab', serif;
+}
+
+#font7::before {
+    content: "Zilla Slab:";
+    margin-right: 25px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(14, 38, 175);
+}
+
+a:hover {
+    border-bottom: solid 1px rgb(14, 38, 175);
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+i {
+    font-size: .8em;
+}
+
