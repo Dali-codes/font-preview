@@ -129,3 +129,12 @@ i {
     font-size: .8em;
 }
 
+@media screen and (max-width: 768px) {
+    ul {
+        width: 85%;
+    }
+
+    li {
+        margin-right: 1.5em;
+    }
+}
